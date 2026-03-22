@@ -178,7 +178,7 @@ class RAGIngestor:
 
     # ── Ingest folder ─────────────────────────────────────────────
 
-    def ingest_folder(self, folder_path: str) -> list[dict]:
+    def ingest_folder(self, folder_path: str) -> list[dict]: 
         results = []
         for file in os.listdir(folder_path):
             if file.endswith(".pdf"):
