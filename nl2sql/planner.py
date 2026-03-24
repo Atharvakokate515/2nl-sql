@@ -14,7 +14,7 @@ from db.schema_descriptions import generate_schema_descriptions
 
 
 def _format_chat_history(history: list[dict]) -> str:
-    if not history:
+    if not history: 
         return "No prior conversation."
     lines = []
     for msg in history:
