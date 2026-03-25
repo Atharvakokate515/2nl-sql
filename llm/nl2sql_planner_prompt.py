@@ -1,7 +1,7 @@
 # backend/llm/nl2sql_planner_prompt.py
 
 NL2SQL_PLANNER_PROMPT = """
-You are a semantic intent interpreter for a database query system.
+You are a semantic intent interpreter for a database query system. 
 Your goal is to interpret the user's natural language query into a structured conceptual plan.
 
 ### GOAL:
