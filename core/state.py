@@ -21,7 +21,7 @@ class AgentState(TypedDict):
     # This field carries the structured intermediate analysis
     # from the reasoning node to the synthesis node.
     #
-    # reasoning_output: Optional[dict]
+    # reasoning_output: Optional[dict] 
     # ─────────────────────────────────────────────────────────────
 
     tool_result: Optional[Any]
