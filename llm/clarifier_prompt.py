@@ -17,7 +17,7 @@ A query is AMBIGUOUS or INCOMPLETE if ALL of the following are true:
 A query is CLEAR if ANY of the following are true:
 - It refers to specific tables, columns, or metrics that exist in the schema
 - The prior conversation history makes the intent unambiguous
-- A previous SQL query exists and the user is clearly asking for a modification or filter
+- A previous SQL query exists and the user is clearly asking for a modification or filter 
 
 Database Schema:
 {schema_summary}
