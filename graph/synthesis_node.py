@@ -104,7 +104,7 @@ def synthesize_answer(state: dict) -> dict:
         citations=citations_for_prompt
     )
 
-    response = generate_text(prompt).content
+    response = generate_text(prompt).content 
 
     return {
         "tool_result": {
