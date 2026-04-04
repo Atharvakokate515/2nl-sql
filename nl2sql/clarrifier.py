@@ -77,7 +77,7 @@ if __name__ == "__main__":
     print("── Clarifier Test ──")
     db_url = "postgresql://postgres:root@localhost:5432/classicmodels"
 
-    # Test 1: standalone ambiguous query
+    # Test 1: standalone ambiguous query 
     result = clarify_query(user_input="show me sales", db_url=db_url)
     print("Test 1 — standalone ambiguous:")
     print("  is_clear:", result.is_clear)
